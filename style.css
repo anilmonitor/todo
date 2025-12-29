@@ -1,0 +1,116 @@
+ * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      body {
+        background: linear-gradient(to right, #74ebd5, #acb6e5);
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        top: 4rem;
+      }
+
+      .cont {
+        border-radius: 10px;
+        background-color: white;
+
+        width: 500px;
+        padding-bottom: 5rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+
+        box-shadow: 2px 5px 10px #0000002d;
+      }
+
+      h1 {
+        margin-top: 2rem;
+        margin-bottom: 1rem;
+        font-weight: bolder;
+      }
+
+      .preBtn {
+        background-color: #74ebd5;
+        color: white;
+        border: none;
+        padding: 0.6rem;
+        height: 2.4rem;
+        width: 3rem;
+        border-radius: 5px;
+      }
+
+      .preBtn:hover {
+        background-color: #5ac5bd;
+        transition: all 0.5s;
+        cursor: pointer;
+      }
+      .dvclass input {
+        border-radius: 5px;
+        padding: 0.4rem;
+        transition: all 0.3s;
+        border-color: #00000030;
+        width: 15rem;
+        height: 2.5rem;
+      }
+
+      input[type="text"]:focus {
+        outline: none;
+        border-color: #74ebd5;
+      }
+
+      .checkedUl {
+        justify-content: center;
+        align-items: center;
+      }
+
+      input[type="checkbox"] {
+        cursor: pointer;
+      }
+
+      .newLi {
+        background-color: #0000000e;
+        width: 19rem;
+        height: 2.5rem;
+        list-style: none;
+        margin-top: 0.5rem;
+        border-radius: 7px;
+        font-size: large;
+
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+      }
+
+      .newLi:hover {
+        background-color: #00000017;
+        transition: all 0.3s;
+      }
+
+      /* //delete button  */
+      .newBtn {
+        background-color: #cf7373ed;
+        color: white;
+        border: none;
+        height: 1.5rem;
+        width: 3rem;
+        border-radius: 5px;
+        text-align: center;
+      }
+
+      .newBtn:hover {
+        background-color: red;
+        transition: all 0.5s;
+        cursor: pointer;
+      }
+
+      .checkedItem {
+        color: green;
+        margin-top: 1rem;
+        /* margin-bottom: 1rem; */
+      }
